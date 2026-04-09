@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:startColor="@color/colorPrimary"
+        android:endColor="@color/colorPrimaryDark"
+        android:angle="270" />
+    <corners android:radius="@dimen/boton_redondeado" />
+    <padding
+        android:left="@dimen/boton_padding"
+        android:top="@dimen/boton_padding"
+        android:right="@dimen/boton_padding"
+        android:bottom="@dimen/boton_padding" />
+</shape>

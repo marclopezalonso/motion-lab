@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">MotionLab</string>
+    <string name="titulo_app">MotionLab</string>
+    <string name="subtitulo_app">Analizador inteligente de movimiento con acelerómetro</string>
+    <string name="iniciar_sesion">Iniciar sesión</string>
+    <string name="ver_historial">Ver historial</string>
+    <string name="titulo_analisis">Sesión de análisis</string>
+    <string name="titulo_resultados">Resultado de la sesión</string>
+    <string name="titulo_historial">Historial de sesiones</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="pausar">Pausar</string>
+    <string name="finalizar">Finalizar</string>
+    <string name="reanudar">Reanudar</string>
+    <string name="volver">Volver</string>
+    <string name="valor_tiempo">%1$s</string>
+    <string name="valor_pasos">Pasos: %1$d</string>
+    <string name="valor_distancia">Distancia: %.2f m</string>
+    <string name="valor_estado">Estado: %1$s</string>
+    <string name="valor_tiempo_placeholder">Tiempo: 00:00</string>
+    <string name="valor_pasos_placeholder">Pasos: 0</string>
+    <string name="valor_distancia_placeholder">Distancia: 0.00 m</string>
+    <string name="valor_estado_placeholder">Estado: Quieto</string>
+    <string name="sesion_iniciada">Sesión iniciada</string>
+    <string name="sesion_pausada">Sesión pausada</string>
+    <string name="sesion_guardada_con_id">Sesión guardada con ID %1$d</string>
+    <string name="no_hay_datos">No hay datos para guardar</string>
+    <string name="no_hay_sesiones_guardadas">No hay sesiones guardadas</string>
+    <string name="sin_acelerometro">Este dispositivo no dispone de acelerómetro</string>
+    <string name="estado_quieto">Quieto</string>
+    <string name="meta_sesion">Sesión #%1$d · %2$s</string>
+
+    <string name="meta_sesion_placeholder">Sesión #— · —</string>
+    <string name="historial_vacio">Todavía no hay sesiones guardadas.</string>
+</resources>

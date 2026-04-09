@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <TextView
+        android:id="@+id/textoTituloResultados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_resultados"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:paddingBottom="6dp" />
+    <TextView
+        android:id="@+id/textoMetaSesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/meta_sesion_placeholder"
+        android:textSize="14sp"
+        android:paddingBottom="10dp" />
+    <FrameLayout
+        android:id="@+id/contenedorEstadisticas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ECEFF1"
+        android:padding="8dp"
+        android:layout_marginBottom="16dp" />
+    <Button
+        android:id="@+id/botonVolver"
+        style="@style/EstiloBoton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/volver"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

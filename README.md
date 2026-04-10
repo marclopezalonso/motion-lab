@@ -21,14 +21,6 @@
 
 ---
 
-<a name="english"></a>
-<div align="center">
-  <h2>🇬🇧 ENGLISH</h2>
-  <sub><a href="#español">⬇️ Leer en Español ⬇️</a></sub>
-</div>
-
----
-
 ## Description
 
 **MotionLab** is an Android application developed in **Java 11** that analyzes the user's physical movement using the device's built-in accelerometer sensor. The app captures real-time data from the `TYPE_ACCELEROMETER` sensor and applies signal processing techniques to interpret physical behavior.

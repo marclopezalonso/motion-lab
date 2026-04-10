@@ -1,15 +1,15 @@
 # MotionLab
 
-## Intelligent Movement Analyzer | Analizador Inteligente de Movimiento
+## Intelligent Movement Analyzer
 
 <div align="center">
   
-  [![EN](https://img.shields.io/badge/📖-ENGLISH-blue?style=for-the-badge&logo=googletranslate)](#english)
-  [![ES](https://img.shields.io/badge/📖-ESPAÑOL-red?style=for-the-badge&logo=googletranslate)](#español)
+  <a href="README.es.md">
+    <img src="https://img.shields.io/badge/📖-ESPAÑOL-red?style=for-the-badge&logo=googletranslate" alt="Español">
+  </a>
   
-  <sub>*Click on the badges above to jump to your preferred language*</sub>
   <br>
-  <sub>*Haz clic en los botones de arriba para ir al idioma deseado*</sub>
+  <sub>*Click the button above to read in Spanish*</sub>
 
 </div>
 
@@ -45,29 +45,12 @@ The main goal is not just to use the sensor, but to **understand its physical be
 
 ### 1. Main Screen (`MainActivity`)
 
-The home screen presents two main options:
-- **Start analysis session** – Begins a new motion monitoring session
-- **View history** – Displays all past sessions
-
-The design is minimal and clean, prioritizing functionality and visual clarity.
-
 | Screen | Preview |
 |--------|---------|
 | Main Screen (initial) | <img src="assets/main_screen_initial.jpg" alt="Main Screen Initial" width="200"> |
 | Main Screen (with daily stats) | <img src="assets/main_screen_with_stats.jpg" alt="Main Screen with Stats" width="200"> |
 
 ### 2. Session Screen (`MotionActivity`)
-
-This is the core functional screen. It contains:
-- **Shared `StatsFragment`** showing:
-  - Elapsed time
-  - Step count
-  - Estimated distance
-  - Current state (Quiet / Walking / Running)
-- **Custom GraphView** – Real-time acceleration magnitude plot using Canvas drawing
-- **Control buttons**: Start, Pause, End session
-
-When "Start" is pressed, the accelerometer begins capturing data. The graph updates in real time, steps are detected, and the movement state changes dynamically.
 
 | Screen | Preview |
 |--------|---------|
@@ -76,26 +59,11 @@ When "Start" is pressed, the accelerometer begins capturing data. The graph upda
 
 ### 3. Results Screen (`ResultActivity`)
 
-After ending a session, this screen shows a summary:
-- Final step count
-- Total distance
-- Final movement state
-- Session duration
-
-This screen reuses the same `StatsFragment` to demonstrate **Fragment reusability** across multiple Activities.
-
 | Screen | Preview |
 |--------|---------|
 | Results Screen | <img src="assets/results_screen.jpg" alt="Results Screen" width="200"> |
 
 ### 4. History Screen (`HistoryActivity`)
-
-Displays a list of all saved sessions with:
-- Session number
-- Date and time
-- Step count
-- Distance
-- Movement state
 
 | Screen | Preview |
 |--------|---------|

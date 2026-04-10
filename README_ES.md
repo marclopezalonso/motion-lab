@@ -1,6 +1,3 @@
-## 📄 `README.es.md` (Español)
-
-```markdown
 # MotionLab
 
 ## Analizador Inteligente de Movimiento

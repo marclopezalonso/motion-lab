@@ -71,7 +71,7 @@ When "Start" is pressed, the accelerometer begins capturing data. The graph upda
 
 | Screen | Preview |
 |--------|---------|
-| Session Screen (empty / not started) | `[IMAGE: assets/session_empty.jpg]` |
+| Session Screen (empty / not started) | `[Main Screen Initial: assets/session_empty.jpg]` |
 | Session Screen (active monitoring) | `[IMAGE: assets/session_active.jpg]` |
 
 ### 3. Results Screen (`ResultActivity`)

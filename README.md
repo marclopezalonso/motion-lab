@@ -53,8 +53,8 @@ The design is minimal and clean, prioritizing functionality and visual clarity.
 
 | Screen | Preview |
 |--------|---------|
-| Main Screen (initial) | `![Main Screen Initial](assets/main_screen_initial.jpg)` |
-| Main Screen (with daily stats) | `[IMAGE: assets/main_screen_stats.jpg]` |
+| Main Screen (initial) | ![Main Screen Initial](assets/main_screen_initial.jpg) |
+| Main Screen (with daily stats) | ![Main Screen with Stats](assets/main_screen_with_stats.jpg) |
 
 ### 2. Session Screen (`MotionActivity`)
 
@@ -71,8 +71,8 @@ When "Start" is pressed, the accelerometer begins capturing data. The graph upda
 
 | Screen | Preview |
 |--------|---------|
-| Session Screen (empty / not started) | `[Main Screen Initial: assets/session_empty.jpg]` |
-| Session Screen (active monitoring) | `[IMAGE: assets/session_active.jpg]` |
+| Session Screen (empty / not started) | ![Session Empty](assets/session_empty.jpg) |
+| Session Screen (active monitoring) | ![Session Active](assets/session_active.jpg) |
 
 ### 3. Results Screen (`ResultActivity`)
 
@@ -86,7 +86,7 @@ This screen reuses the same `StatsFragment` to demonstrate **Fragment reusabilit
 
 | Screen | Preview |
 |--------|---------|
-| Results Screen | `[IMAGE: assets/results_screen.jpg]` |
+| Results Screen | ![Results Screen](assets/results_screen.jpg) |
 
 ### 4. History Screen (`HistoryActivity`)
 
@@ -99,7 +99,7 @@ Displays a list of all saved sessions with:
 
 | Screen | Preview |
 |--------|---------|
-| History Screen | `[IMAGE: assets/history_screen.jpg]` |
+| History Screen | ![History Screen](assets/history_screen.jpg) |
 
 ## Data Persistence
 

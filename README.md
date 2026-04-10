@@ -53,7 +53,7 @@ The design is minimal and clean, prioritizing functionality and visual clarity.
 
 | Screen | Preview |
 |--------|---------|
-| Main Screen (initial) | `[IMAGE: assets/main_screen_initial.jpg]` |
+| Main Screen (initial) | `![Main Screen Initial](assets/main_screen_initial.jpg)` |
 | Main Screen (with daily stats) | `[IMAGE: assets/main_screen_stats.jpg]` |
 
 ### 2. Session Screen (`MotionActivity`)
